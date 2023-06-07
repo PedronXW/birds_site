@@ -1,0 +1,152 @@
+.FontApresentation{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 44px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontTitle{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontContactTitle{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontContactText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontProductsTitle{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FontProductsText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .FontApresentation{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .FontTitle{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        font-size: 20px;
+        line-height: 38px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .FontText{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .FontProductsTitle{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        font-size: 20px;
+        line-height: 38px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .FontProductsText{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .FontContactTitle{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .FontContactText{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        text-align: start;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+}

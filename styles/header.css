@@ -1,0 +1,137 @@
+header{
+    height: 90px;
+    padding: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: white;
+    z-index: 1;
+    margin: 0px;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    margin: 0px;
+}
+
+#SocialLinksContainer{
+    gap: 10px;
+    display: flex;
+    width: 240px;
+    justify-content: flex-end;
+}
+
+/*Containers Styles*/
+
+#NavegationListContainer{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#LogoContainer{
+    display: flex;
+    gap: 10px;
+    width: 240px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.NavegationItem{
+    color: black;
+    text-decoration: none;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.NavegationItem:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*Images Style*/
+
+#LogoImage{
+    height: fit-content;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Font Style*/
+.FontButton{
+    padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    header{
+        height: 70px;
+        right: 0;
+        left: 0;
+        display: flex;
+        background: white;
+        z-index: 1;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        align-items: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #LogoContainer{
+        display: flex;
+        gap: 10px;
+        width: 240px;
+        margin: 0 auto;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    #NavegationListContainer{
+        list-style: none;
+        display: none;
+        flex-direction: row;
+        gap: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #LogoImage{
+        height: fit-content;
+        width: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SocialLinksContainer{
+        gap: 10px;
+        display: none;
+        width: 240px;
+        justify-content: flex-end;
+    }
+}

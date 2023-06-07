@@ -1,0 +1,105 @@
+#ApresentationLayoutContainer{
+    height: 80vh;
+    margin-top: 92px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 120px;
+    background: linear-gradient(38deg, rgba(189,206,250,1) 0%, rgba(0,71,255,1) 100%);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ImageCapaContainer{
+    height: 400px;
+    width: 400px;
+}
+
+#ImageCapaContainerMobile{
+    display: none;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes morph{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+#ImagePresentation{
+    height: 400px; 
+    width: 400px; 
+}
+
+#imagepinguin{
+
+    animation: morph 8s ease-in-out infinite;
+}
+
+#ApresentationTextContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 35px;
+}
+
+#ButtonPortfolio{
+    width: 240px;
+    height: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+#ButtonPortfolio:hover{
+    background: black;
+    color: white;
+    transition: .5s ease;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    #ApresentationLayoutContainer{
+        height: 82vh;
+        margin-top: 72px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        padding-right: 20px;
+        background: linear-gradient(38deg, rgba(189,206,250,1) 0%, rgba(0,71,255,1) 100%);
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #ImageCapaContainer{
+        display: none;
+    }
+    
+    #ApresentationTextContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        gap: 20px;
+    }
+
+    #ImageCapaContainerMobile{
+        display: flex;
+        height: 200px;
+        width: 200px;
+    }
+    
+}

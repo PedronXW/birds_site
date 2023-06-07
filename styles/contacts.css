@@ -1,0 +1,95 @@
+#Contacts{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 120px;
+    background: linear-gradient(38deg, rgb(189, 206, 250) 0%, rgba(0,71,255,1) 100%);
+    direction: rtl;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ContactsTextFirstColumn{
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    gap: 20px;
+}
+
+#ContactsTextSecondColumn{
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    gap: 20px;
+}
+
+#ContactsTextThirdColumn{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    gap: 100px;
+}
+
+#SocialLinksContainerContact{
+    gap: 10px;
+    display: flex;
+    width: min-content;
+    justify-content: flex-end;
+}
+
+#LogoContainerContact{
+    display: flex;
+    gap: 10px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    #Contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:40px 40px;
+        direction: ltr;
+        gap: 10px;
+        
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    #ContactsTextFirstColumn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #ContactsTextSecondColumn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #ContactsTextThirdColumn{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 20px;
+        direction: rtl;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #SocialLinksContainerContact{
+        gap: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #LogoContainerContact{
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        direction: ltr;
+        justify-content: flex-start;
+    }
+    
+}

@@ -1,0 +1,108 @@
+#Products{
+    margin-top: 92px;
+    margin-bottom: 120px;
+    padding-left: 120px;
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 120px;
+}
+
+#SliderGalleryProducts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: gray;
+    width: 100%;
+    height: 80vh;
+}
+
+#SliderGalleryProductsPrevButton{
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+#SliderGalleryProductsNextButton{
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+    justify-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductsDescriptionContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+#ProductsDescriptionFirstContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#ProductsDescriptionSecondContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#ProductsDescriptionThirdContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.ImageProducts{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    #Products{
+        
+        padding-left: 40px;
+        display: flex;
+        gap: 60px;
+        margin: 0 auto;
+        margin-bottom:120px;
+        margin-top: 92px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+    .ProductsDescriptionContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+}
