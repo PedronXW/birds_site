@@ -67,15 +67,21 @@ h4{
 }
 
 
+.ContainerImageLogo{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+
+
 
 
 /*Images Style*/
 
 #LogoImage{
-    height: fit-content;
+    height: 52px;
     width: 30px;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
 
