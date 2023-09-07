@@ -7,7 +7,6 @@
     justify-content: space-between;
     padding-right: 120px;
     background: linear-gradient(38deg, rgba(189,206,250,1) 0%, rgba(0,71,255,1) 100%);
-
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -60,15 +59,15 @@
     #ApresentationLayoutContainer{
         height: 82vh;
         margin-top: 72px;
-        padding-left: 20px;
+        padding-left: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 40px;
         align-items: center;
-        padding-right: 20px;
+        padding-right: 0px;
         background: linear-gradient(38deg, rgba(189,206,250,1) 0%, rgba(0,71,255,1) 100%);
-    
+        width: 100vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
