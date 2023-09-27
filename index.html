@@ -11,9 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500&display=swap" rel="stylesheet">
 
-
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
 
     <link href="./styles/style.css" rel="stylesheet" />
     <link href="./styles/products.css" rel="stylesheet" />
@@ -22,6 +20,7 @@
     <link href="./styles/apresentation.css" rel="stylesheet" />
     <link href="./styles/fonts.css" rel="stylesheet" />
     <link href="./styles/header.css" rel="stylesheet" />
+    <link href="./styles/carousel.css" rel="stylesheet" />
 </head>
 
 
@@ -82,7 +81,9 @@
             <div id="AboutUsTextContainer">
 
                 <h2 class="FontTitle">Quem nós somos:</h2>
-                <h3 id="AboutUsText" class="FontText">A Birds Systems nasceu com a missão de auxiliar pessoas e empresas a alcançar o auge de seus serviços, incorporando tecnologias inovadoras, gerando praticidade e novas possibilidades.
+                <h3 id="AboutUsText" class="FontText">A Birds Systems nasceu com a missão de auxiliar pessoas e empresas
+                    a alcançar o auge de seus serviços, incorporando tecnologias inovadoras, gerando praticidade e novas
+                    possibilidades.
                     </br></br></br>
                     Nossos serviços abrangem diversas áreas, prestamos atendimento em design, desenvolvimento, aplicação
                     e manutenção de aplicações para uso interno ou fornecimento para terceiros.</h3>
@@ -99,38 +100,89 @@
 
         <h2 class="FontTitle">Algumas de nossas áreas de atuação:</h2>
 
+        <section id="carouselContainer">
+            <ul id="carousel">
+                <li class="item">
+                    <div class="icon-container">
+                        <i class="ph ph-headphones" style="font-size: 36px; color: #618DFF;"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2 class="FontProductsTitle">Sistema de URA</h2>
+                        <p class="FontProductsText">Sistema personalizado de atendimento telefônico para melhor atender
+                            seu
+                            público.</p>
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="icon-container">
+                        <i class="ph ph-code" style="font-size: 36px; color: #618DFF;"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2 class="FontProductsTitle">Desenvolvimento de Aplicações</h2>
+
+                        <p class="FontProductsText">Desenvolvimento de aplicações voltadas para uso interno ou
+                            distribuição para
+                            seus clientes.</p>
+
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="icon-container">
+                        <i class="ph ph-hard-drives" style="font-size: 36px; color: #618DFF;"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2 class="FontProductsTitle">Criação e Manutenção de Redes</h2>
+
+                        <p class="FontProductsText">Desenvolvimento de infraestrutura de redes para ampliar sua
+                            capacidade de
+                            tramitação de dados.</p>
+
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="icon-container">
+                        <i class="ph ph-books" style="font-size: 36px; color: #618DFF;"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2 class="FontProductsTitle">Treinamento Online ou Presencial
+                        </h2>
+                        <p class="FontProductsText">Qual tecnologia que sua empresa precisa absorver e aprimorar?
+                            Nós temos o treinamento para você.</p>
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="icon-container">
+                        <i class="ph ph-headphones" style="font-size: 36px; color: #618DFF;"></i>
+                    </div>
+                    <div class="text-container">
+                        <h2 class="FontProductsTitle">Estrutura de Projetos de Hardware</h2>
+                        <p class="FontProductsText">Temos equipe capacitada para desenvolver o hardware que você precisa.</p>
+                    </div>
+                </li>
+
+            </ul>
+            <div id="buttons">
+                <button id="prev"><i class="ph-bold ph-caret-left" style="font-size: 24px;"></i></button>
+                <button id="next"><i class="ph-bold ph-caret-right" style="font-size: 24px;"></i></button>
+            </div>
+        </section>
+
         <div class="ProductsDescriptionContainer">
 
-            <div id="ProductsDescriptionFirstContainer">
-
-                <i class="ph ph-headphones" style="font-size: 44px; color: #618DFF;"></i>
-
-                <h2 class="FontProductsTitle">Sistema de URA</h2>
-
-                <p class="FontProductsText">Sistema personalizado de atendimento telefônico para melhor atender seu
-                    público.</p>
-
-            </div>
 
             <div id="ProductsDescriptionSecondContainer">
 
-                <i class="ph ph-code" style="font-size: 44px; color: #618DFF;"></i>
 
-                <h2 class="FontProductsTitle">Desenvolvimento de Aplicações</h2>
-
-                <p class="FontProductsText">Desenvolvimento de aplicações voltadas para uso interno ou distribuição para
-                    seus clientes.</p>
 
             </div>
 
             <div id="ProductsDescriptionThirdContainer">
 
-                <i class="ph ph-hard-drives" style="font-size: 44px; color: #618DFF;"></i>
 
-                <h2 class="FontProductsTitle">Criação e Manutenção de Redes</h2>
-
-                <p class="FontProductsText">Desenvolvimento de infraestrutura de redes para ampliar sua capacidade de
-                    tramitação de dados.</p>
 
             </div>
 
@@ -176,7 +228,7 @@
             <h2 class="FontContactTitle">Endereço:</h2>
             <h3 class="FontContactText">Pouso Alegre | Minas Gerais</h3>
         </address>
-        
+
         <address id="ContactsTextThirdColumn">
             <div id="LogoContainer">
                 <div class="ContainerImageLogo">
